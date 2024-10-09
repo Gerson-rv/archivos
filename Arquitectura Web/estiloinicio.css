@@ -1,0 +1,79 @@
+/*colores usados
+#49CEE3
+#499EE3
+#496DE3
+*/
+h1{
+    text-align: center;
+    /*margin-left: 650px;*/
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+h2{
+    text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}
+.navbar-nav{
+    color: aliceblue;
+}
+.navbar-brand img{
+    width: 100px;
+}
+#subtitulo{
+    font-size: 30px;
+}
+#anim{
+    transition: all 1s ease-in-out;
+}
+#anim:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+}
+.container-fluid .nav-link{
+    background-color: #424242;
+    width: 10rem;
+    /*margin-right: 0.7rem;*/
+    text-align: center;
+    transition: all 1s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+.container-fluid .nav-link:hover{
+    background-color: #3d5c79;
+    width: 10rem;
+    transition: all 1s ease-in-out;
+    transform: scaleX(1.1);
+}
+/*para las imagenes del carrusel*/
+.d-block {
+    height: auto;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #adb0bda9;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    z-index: 1;
+}
+.img-thumbnail{
+    margin-bottom: 50px;
+    width: 650px;
+    height: 400px;
+}
+#titulo{
+    text-align: center;
+}
+#formulaio{
+    width: 700px;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    background-color: #3d5c79;
+    padding: 90px;
+}
+.bd-footer{
+    background-color: #424242;
+    color: aliceblue   
+}
+
